@@ -13,5 +13,8 @@ manifest:
     remote: nxtkb
     revision: main
     import: west.yml
+  - name: cirque-input-module
+    remote: nxtkb
+    revision: main
   self:
     path: config
