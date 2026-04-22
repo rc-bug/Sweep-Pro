@@ -71,24 +71,24 @@
 	keymap {
 		compatible = "zmk,keymap";
 		
-		default_layer {
-			display-name = "DEFAULT";
-			bindings = <
-&kp Q   &kp W       &kp E        &kp R        &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
-&kp A   &kp S       &kp D        &kp F        &kp G        &kp H      &kp J        &kp K        &kp L       &kp BSPC
-&kp Z   &ht LALT X  &ht LCTRL C  &ht LGUI V   &kp B        &kp N      &ht RGUI M   &ht RCTRL COMMA  &ht RALT DOT  &kp ENTER
-&kp C_MUTE  &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB   &studio_unlock
-			>;
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
-		};
-		
 		windows_layer {
-			display-name = "WIN";
+			display-name = "DEFAULT";
 			bindings = <
 &kp Q  &kp W       &kp E       &kp R        &kp T         &kp Y      &kp U        &kp I       &kp O       &kp P
 &kp A  &kp S       &kp D       &kp F        &kp G         &kp H      &kp J        &kp K       &kp L       &kp BSPC
 &kp Z  &ht LALT X  &ht LGUI C  &ht LCTRL V  &kp B         &kp N      &ht RCTRL M  &ht RGUI COMMA  &ht RALT DOT  &kp ENTER
 &kp C_MUTE  &lt LEF TAB  &kp LSHIFT     &kp SPACE &lt RIG TAB  &studio_unlock
+			>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+		};
+		
+		default_layer {
+			display-name = "MAC";
+			bindings = <
+&kp Q   &kp W       &kp E        &kp R        &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
+&kp A   &kp S       &kp D        &kp F        &kp G        &kp H      &kp J        &kp K        &kp L       &kp BSPC
+&kp Z   &ht LALT X  &ht LCTRL C  &ht LGUI V   &kp B        &kp N      &ht RGUI M   &ht RCTRL COMMA  &ht RALT DOT  &kp ENTER
+&kp C_MUTE  &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB   &studio_unlock
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 		};
