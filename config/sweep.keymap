@@ -132,7 +132,7 @@
 		windows_layer {
 			display-name = "WIN";
 			bindings = <
-			&kp Q  &ht LALT W       &kp E       &kp R        &ht LCTRL T   &ht RCTRL Y  &kp U        &kp I       &ht RALT O    &kp P
+			&kp Q  &ht LALT W       &kp E       &kp R        &ht LCTRL T   &ht RCTRL Y  &kp U        &kp I       &ht RALT O       &kp P
 			&kp A       &kp S       &kp D       &kp F        &kp G         &kp H        &kp J        &kp K       &kp L       &kp BSPC
 			&ds_z 0 Z   &sel_x LCLK X       &kp C       &kp V        &kp B         &kp N        &kp M        &kp COMMA   &kp DOT     &kp ENTER
 			&kp C_MUTE  &lt LEF TAB  &kp SPACE  &kp LSHIFT    &lt RIG TAB   &studio_unlock
@@ -143,7 +143,7 @@
 		default_layer {
 			display-name = "DEFAULT";
 			bindings = <
-			&kp Q  &ht LALT W       &kp E       &kp R        &ht LCTRL T   &ht RCTRL Y  &kp U        &kp I       &ht RALT O    &kp P
+			&kp Q  &ht LALT W       &kp E       &kp R        &ht LCTRL T   &ht RCTRL Y  &kp U        &kp I       &ht RALT O       &kp P
 			&kp A       &kp S       &kp D       &kp F        &kp G         &kp H        &kp J        &kp K       &kp L       &kp BSPC
 			&ds_z 0 Z   &sel_x LCLK X       &kp C       &kp V        &kp B         &kp N        &kp M        &kp COMMA   &kp DOT     &kp ENTER
 			&kp C_MUTE  &lt LEF TAB  &kp SPACE  &kp LSHIFT    &lt RIG TAB   &studio_unlock
